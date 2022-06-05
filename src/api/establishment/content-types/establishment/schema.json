@@ -4,7 +4,8 @@
   "info": {
     "singularName": "establishment",
     "pluralName": "establishments",
-    "displayName": "establishment"
+    "displayName": "establishment",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,40 @@
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "updated": {
+      "type": "date"
+    },
+    "description": {
+      "type": "text"
+    },
+    "adress": {
+      "type": "string"
+    },
+    "number": {
+      "type": "integer"
+    },
+    "rate": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image_url": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
     }
   }
 }
